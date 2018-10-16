@@ -18,6 +18,10 @@ class School
   end
 
   def sort
+    sorted = []
+    @roster.each do |k, v|
+      v.sort
+    end
     
   end
 end
